@@ -1,0 +1,30 @@
+.data{
+    text-align: center;
+    /* border: 2px black solid; */
+    margin: 5% 7%;
+    padding: 10px;
+    display: flex;
+}
+
+.box{
+    width: 33%;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    /* border: 2px solid rebeccapurple; */
+    width: 60%;
+}
+.text{
+    margin: 7px;
+    padding: 7px;
+    color: chocolate;
+    font-weight: 600;
+    font-size: 30px;
+}
