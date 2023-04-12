@@ -3,9 +3,9 @@ let y=document.querySelector(".link")
 let z=document.querySelector(".text")
 let xyz=document.querySelector(".data")
 data={
-    article:["https://www.ltrr.arizona.edu/~katie/kt/pdfs/Flood-Hydroclimaotlogy-new-scan.pdf","./files/Flood-Report.pdf"],
-    text:['Article Related to Flood Hydroclimatology','Flood Report by Niti Ayog'],
-    image:["./IMAGE AND VIDEO/11.jpg","./IMAGE AND VIDEO/12.jpg"]
+    article:["https://www.ltrr.arizona.edu/~katie/kt/pdfs/Flood-Hydroclimaotlogy-new-scan.pdf","./files/Flood-Report.pdf",'https://www.iasexpress.net/floods-india/',"https://www.ltrr.arizona.edu/~katie/kt/pdfs/Flood-Hydroclimaotlogy-new-scan.pdf","./files/Flood-Report.pdf",'https://www.iasexpress.net/floods-india/'],
+    text:['Article Related to Flood Hydroclimatology','Flood Report by Niti Ayog','Floods and its Management in India','Article Related to Flood Hydroclimatology','Flood Report by Niti Ayog','Floods and its Management in India'],
+    image:["./IMAGE AND VIDEO/11.jpg","./IMAGE AND VIDEO/12.jpg","https://www.google.com/url?sa=i&url=https%3A%2F%2Fscroll.in%2Farticle%2F955800%2Fin-2018-floods-cost-india-1808-lives-and-farmland-the-size-of-mizoram&psig=AOvVaw3pvm3uLDa_YIrHyR2keCg4&ust=1681401947133000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPiNyMbcpP4CFQAAAAAdAAAAABAJ","./IMAGE AND VIDEO/11.jpg","./IMAGE AND VIDEO/12.jpg","https://www.google.com/url?sa=i&url=https%3A%2F%2Fscroll.in%2Farticle%2F955800%2Fin-2018-floods-cost-india-1808-lives-and-farmland-the-size-of-mizoram&psig=AOvVaw3pvm3uLDa_YIrHyR2keCg4&ust=1681401947133000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPiNyMbcpP4CFQAAAAAdAAAAABAJ"]
 }
 let len=data.article.length
 for( let i=0;i<data.article.length;i++){
